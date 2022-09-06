@@ -1,0 +1,19 @@
+Algorithme task3
+Var 
+V1 , V2 : Array Of Integer [50];
+Ps : Inetger := 0 ; 
+Begin
+Read (V1);
+Read (V2);
+If (V1.length <> V2.length) then 
+Write ("V1 and V2 are not orthogonal");
+Else 
+Ps := F.scalaire(V1 , V2) ;
+End If 
+If (Ps = 0) then 
+Write ("V1 and V2 are orthogonal");
+Else
+Write ("V1 and V2 are not orthogonal")
+End If 
+End Begin 
+

@@ -1,0 +1,11 @@
+Algorithme Task 3 p 2
+Function Scalaire (V1 , V2) : Integer ;
+Var 
+i , R : Integer :=0;
+Begin 
+While (i<V1.length)Do 
+R= v1[i] * V2[i] + R;
+i:= i + 1; 
+End While
+Return R;
+End Begin 
